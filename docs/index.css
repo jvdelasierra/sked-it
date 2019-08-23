@@ -1,0 +1,106 @@
+/*
+
+	15 - Elegant Yet Approachable Style - https://visme.co/blog/website-color-schemes/
+	#EDC7B7
+	#EEE2DC
+	#BAB2B5
+	#123C69
+	#AC3B61
+	24 - Clean and Modern - https://visme.co/blog/website-color-schemes/
+	#17252A
+	#2B7A7B
+	#3AAFA9
+	#DEF2F1
+	#FEFFFF
+
+*/
+
+
+*{
+	background-color: #DEF2F1; 
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 10px;
+    font-family: sans-serif;
+}
+
+aside{
+	float: left;
+	width: 30%;
+	text-align: center;
+	background-color: #3AAFA9; 
+	padding: 5px;
+    
+
+}
+.description{
+	background-color: #3AAFA9; 
+}
+
+
+footer{
+	vertical-align: center;
+	margin:none;
+	/*pad*/
+	float: right;
+	width: 100%;
+	font-family: 'Fredoka One', cursive;
+	font-size: 12px;
+	text-align: center;
+	/*padding: 5px;*/
+	color: #FEFFFF;
+	background-color: #17252A;
+	/*width: 100%;*/
+	color: #f8f8f8;
+}
+
+.information{
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+	color: #FEFFFF;
+	background-color: #17252A;
+	width: 100%;
+	color: #f8f8f8;
+}
+main{
+	float: right;
+    width: 68%;
+    background-color: #2B7A7B;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+main b {
+	/*margin: 0px;*/
+    background-color: #2B7A7B;
+
+}
+main ul{
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+main ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #17252A;
+}
+nav{
+	background-color:#FEFFFF;
+    text-align: center;
+	width: 100%;
+    padding:5px;
+
+}
+nav a{
+	margin: 3px;
+	background-color:#FEFFFF;
+    color: #2B7A7B;
+    text-decoration: none;
+
+}
